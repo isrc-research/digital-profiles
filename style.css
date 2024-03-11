@@ -1,0 +1,27 @@
+@font-face {
+	font-family: "Preeti";
+	src: url("./Preeti.ttf");
+}
+
+html {
+	color: #1a1a1a;
+	background-color: #fdfdfd;
+	font-family: "Preeti";
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0 auto;
+	max-width: 56em;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	hyphens: auto;
+	overflow-wrap: break-word;
+	text-rendering: optimizeLegibility;
+	font-kerning: normal;
+	font-size: 1.3rem;
+}
